@@ -22,7 +22,7 @@ localStorage.setItem('token',token)
 
 
   return (
-    <div className="bg-gray-50 min-h-screen">
+    <div className="bg-gray-150 min-h-screen">
       <ToastContainer/>
       { token === ""
       ? <Login setToken={setToken} /> 
