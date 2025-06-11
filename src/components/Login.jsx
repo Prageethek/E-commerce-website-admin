@@ -42,7 +42,7 @@ setToken(response.data.token)
                     <p className='text-sm font-medium text-gray-700 mb-2'>password</p>
                     <input onChange={(e)=>setPassword(e.target.value)} value={password} className='rounded-md w-full  px-3 py-2 border border-gray-300  outline-none' type="password" placeholder='Enter your password' required/>
                 </div>
-<button className='mt-2 w-full px-4 py-2 bg-black text-white rounded-md' type='submit'>Login</button>
+<button className='mt-2 w-full px-4 py-2 bg-black text-white rounded-md cursor-pointer' type='submit'>Login</button>
             </form>
         </div>
     </div>
